@@ -1,0 +1,75 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+header{
+	background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("background.jpg");
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+ul{
+	float: right;
+	list-style-type: none;
+	margin-top: 25px;
+}
+
+ul li{
+	display: inline-block;
+}
+
+ul li a{
+	text-decoration: none;
+	color: white;
+	padding: 5px 20px;
+	border: 1px solid transparent;
+	transition: 0.6s ease;
+	border-radius: 25px;
+}
+
+ul li a:hover{
+	background-color: darkgoldenrod;
+	color: white;
+}
+
+.main{
+	max-width: 1450px;
+	margin: auto;
+}
+
+.title{
+	position: absolute;
+	top: 50%;
+	left: 38%;	
+	transform: translate(-50%, -50%);
+}
+
+.title .t1{
+	color: white;
+	font-size: 25px;
+}
+
+.title .t2{
+	color: white;
+	font-size: 73px;
+	font-style: oblique;
+	font-weight: 600;
+	text-shadow: 4px 4px 3px black, 0 0 25px red, 0 0 5px red;
+}
+
+.title .t3{
+	color: white;
+	font-size: 40px;
+}
+
+.t3 span{
+	color: darkgoldenrod;
+	font-size: 40px;
+	font-weight: 550;
+	font-style: italic;
+	text-shadow: 4px 4px 3px black, 0 0 25px red, 0 0 5px red;
+	padding: 4px;
+}
